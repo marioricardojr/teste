@@ -1,0 +1,1136 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#"
+     xml:base="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CabecalhoPeididoCompra -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CabecalhoPeididoCompra">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#isPartOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Cabecalho"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Data"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#NumeroPedidoCompra"/>
+        <rdfs:label>isPartOf Cabeçalho do pedido de compra</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoAnaliseQuimica -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoAnaliseQuimica">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#isPartOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoAnaliseQuimica"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ResultadoAnaliseQuimica"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Criterio_de_aceitacao -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Criterio_de_aceitacao">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#isA"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CriterioAceitacao"/>
+        <rdfs:label>isA Critério de aceitação</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#EnsaioscomTestemunhoPorcaSextavadaPesadaASTMA194 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#EnsaioscomTestemunhoPorcaSextavadaPesadaASTMA194">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoPorcaSextavadaPesadaASTMA194"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoDureza"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoTesteCarga"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#EnsaiocomTestemunho"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Informacoesprincipaispedidocompra -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Informacoesprincipaispedidocompra">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#isPartOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CorpoDocumento"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Descrição"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Item"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Norma"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Quantidade"/>
+        <rdfs:label>isPartOf Corpo do pedido de compra</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoBarraRoscadaASTMA193GrB7Natural -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoBarraRoscadaASTMA193GrB7Natural">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#isPartOf_PIT_JEA_Parafuso_estojo_/_barra_roscada__3/8_a_4_ASTM_A193_Gr_B7_Natural_(com_revestimento)"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#BarraRoscadaASTMA193"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Beneficiamento"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Calibracao"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#EnsaiocomTestemunho"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Ensaiosdaqualidade"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoFabricacao"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoFinalCliente"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoFinalJEA"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Producao"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#RecebimentodaMateriaPrima"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoFinalClientePorcaSextavadaPesadaASTMA194 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoFinalClientePorcaSextavadaPesadaASTMA194">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoPorcaSextavadaPesadaASTMA194"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoAnaliseQuimica"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoDureza"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoRevestimento"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoTesteCarga"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoTracao"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertiicadoTratamentoTermico"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#RelatorioEnsaioMetalografico"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#RelatorioInspecaoDimensional"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoFinalCliente"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoFinalJEAPorcaSextavadaPesadaASTMA194 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoFinalJEAPorcaSextavadaPesadaASTMA194">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoPorcaSextavadaPesadaASTMA194"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#RelatorioInspecaoDimensional"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoFinalJEA"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoPorcaSextavadaPesadaASTMA194 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoPorcaSextavadaPesadaASTMA194">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#isPartOf_PIT_JEA_Parafuso_estojo_/_barra_roscada__3/8_a_4_ASTM_A193_Gr_B7_Natural_(com_revestimento)"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#PorcaSextavadaPesadaASTMA194"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#EnsaiocomTestemunho"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoFinalCliente"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoFinalJEA"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#RecebimentoProdutoAcabado"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#PIT -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#PIT">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#isPartOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Plano_de_Inspeções_e_Testes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Assinatura"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Carimbo"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Ciclodevida"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Cliente"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Data"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#FamiliaEquipamento"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Fornecedor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#TipodeInspecao"/>
+        <rdfs:label>isPartOf Plano de Inspeções e Testes</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#PlanodeInspecoeseTestes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#PlanodeInspecoeseTestes">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#isA"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#PIT_JEA_Parafuso_estojo_/_barra_roscada__3/8_a_4_ASTM_A193_Gr_B7_Natural_(com_revestimento)"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Plano_de_Inspeções_e_Testes"/>
+        <rdfs:label>isA Plano de Inspeções e Testes</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#RecebimentoPorcaSextavadaPesadaASTMA194 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#RecebimentoPorcaSextavadaPesadaASTMA194">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoPorcaSextavadaPesadaASTMA194"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoAnaliseQuimica"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoDureza"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoRevestimento"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertiicadoTratamentoTermico"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#RelatorioEnsaioMetalografico"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#RecebimentoProdutoAcabado"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Registro -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Registro">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#isA"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoAnaliseQuimica"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoDureza"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoRevestimento"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoTracao"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertiicadoTratamentoTermico"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#RelatorioEnsaioMetalografico"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#RelatorioInspecaoDimensional"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#RegistroEmitido"/>
+        <rdfs:label>isA Registro</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Rodape_do_pedido_de_compra -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Rodape_do_pedido_de_compra">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#isPartOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Rodapé"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Assinatura"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Carimbo"/>
+        <rdfs:label>isPartOf Rodapé do pedido de compra</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#isA -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#isA"/>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#isA_BoundingBox -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#isA_BoundingBox">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#isA"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Assinatura"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Cabecalho"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Carimbo"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Cliente"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CorpoDocumento"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Corrida"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Data"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Descrição"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Equipamento"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Fornecedor"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Item"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Norma"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#NumeroCertificado"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#NumeroPedidoCompra"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Quantidade"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ResultadoEnsaio"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Rodapé"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#TipodeInspecao"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#BoundingBox"/>
+        <rdfs:isDefinedBy xml:lang="pt">BoundingBox é uma caixa delimitadora de região composta por quatro coordenadas (left, top, width e height).</rdfs:isDefinedBy>
+        <rdfs:label>isA BoudingBox</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#isA_Certificadoqualidade -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#isA_Certificadoqualidade">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#isA"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoAnaliseQuimica"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoDureza"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoRevestimento"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoTracao"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertiicadoTratamentoTermico"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#RelatorioEnsaioMetalografico"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#RelatorioInspecaoDimensional"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadodeQualidade"/>
+        <rdfs:label>isA Certificado de qualidade</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#isPartOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#isPartOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#isPartOfResultadoAnaliseQuimica -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#isPartOfResultadoAnaliseQuimica">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#isPartOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ResultadoAnaliseQuimica"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Carbono"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Crômio"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Enxofre"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Fósforo"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Manganês"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Molibdênio"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Silício"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#isPartOf_ArquivoPDF -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#isPartOf_ArquivoPDF">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#isPartOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ArquivoPDF"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadodeQualidade"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Pagina"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#PedidoCompra"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Plano_de_Inspeções_e_Testes"/>
+        <rdfs:isDefinedBy xml:lang="pt">O PDF (Portable Document Format) é um formato de arquivo, desenvolvido pela Adobe Systems em 1993, para representar documentos de maneira independente do aplicativo, do hardware e do sistema operacional usados para criá-los. Um arquivo PDF pode descrever documentos que contenham texto, gráficos e imagens num formato independente de dispositivo e resolução.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="pt">isPartOf Arquivo PDF</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#isPartOf_CertificadoQualidade -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#isPartOf_CertificadoQualidade">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#isPartOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadodeQualidade"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Assinatura"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Carimbo"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Corrida"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Data"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Descrição"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Norma"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#NumeroCertificado"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#NumeroPedidoCompra"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ResultadoEnsaio"/>
+        <rdfs:label>isPartOf Certificado de Qualidade</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#isPartOf_PedidoCompra -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#isPartOf_PedidoCompra">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#isPartOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#PedidoCompra"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Cabecalho"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CorpoDocumento"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Rodapé"/>
+        <rdfs:isDefinedBy xml:lang="pt">É um documento que formaliza quais foram os produtos, quantidades, preços e condições de prazo e pagamento acordados com o fornecedor.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="pt">isPartOf Pedido de Compra</rdfs:label>
+        <rdfs:label>isPartOf Pedido de compra</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Beneficiamento_PIT_JEA_Parafuso_estojo_/_barra_roscada__3/8_a_4_ASTM_A193_Gr_B7_Natural_(com_revestimento) -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Beneficiamento_PIT_JEA_Parafuso_estojo_/_barra_roscada__3/8_a_4_ASTM_A193_Gr_B7_Natural_(com_revestimento)">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoBarraRoscadaASTMA193GrB7Natural"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoRevestimento"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertiicadoTratamentoTermico"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Beneficiamento"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Calibracao_PIT_JEA_Parafuso_estojo_/_barra_roscada__3/8_a_4_ASTM_A193_Gr_B7_Natural_(com_revestimento) -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Calibracao_PIT_JEA_Parafuso_estojo_/_barra_roscada__3/8_a_4_ASTM_A193_Gr_B7_Natural_(com_revestimento)">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoBarraRoscadaASTMA193GrB7Natural"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#RelatorioInspecaoDimensional"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Calibracao"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Ensaios_com_testemunho_PIT_JEA_Parafuso_estojo_/_barra_roscada__3/8_a_4_ASTM_A193_Gr_B7_Natural_(com_revestimento) -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Ensaios_com_testemunho_PIT_JEA_Parafuso_estojo_/_barra_roscada__3/8_a_4_ASTM_A193_Gr_B7_Natural_(com_revestimento)">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoBarraRoscadaASTMA193GrB7Natural"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoDureza"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoTracao"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#EnsaiocomTestemunho"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#EnsaiosdaQualidade_PIT_JEA_Parafuso_estojo_/_barra_roscada__3/8_a_4_ASTM_A193_Gr_B7_Natural_(com_revestimento) -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#EnsaiosdaQualidade_PIT_JEA_Parafuso_estojo_/_barra_roscada__3/8_a_4_ASTM_A193_Gr_B7_Natural_(com_revestimento)">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoBarraRoscadaASTMA193GrB7Natural"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoAnaliseQuimica"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoDureza"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoTracao"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#RelatorioEnsaioMetalografico"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Ensaiosdaqualidade"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Inspecao_Final_JEA_PIT_JEA_Parafuso_estojo_/_barra_roscada__3/8_a_4_ASTM_A193_Gr_B7_Natural_(com_revestimento) -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Inspecao_Final_JEA_PIT_JEA_Parafuso_estojo_/_barra_roscada__3/8_a_4_ASTM_A193_Gr_B7_Natural_(com_revestimento)">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoBarraRoscadaASTMA193GrB7Natural"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#RelatorioInspecaoDimensional"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoFinalJEA"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Inspecao_Final_do_Cliente_PIT_JEA_Parafuso_estojo_/_barra_roscada__3/8_a_4_ASTM_A193_Gr_B7_Natural_(com_revestimento) -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Inspecao_Final_do_Cliente_PIT_JEA_Parafuso_estojo_/_barra_roscada__3/8_a_4_ASTM_A193_Gr_B7_Natural_(com_revestimento)">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoBarraRoscadaASTMA193GrB7Natural"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoAnaliseQuimica"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoDureza"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoRevestimento"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoTracao"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertiicadoTratamentoTermico"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#RelatorioEnsaioMetalografico"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#RelatorioInspecaoDimensional"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoFinalCliente"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Inspecao_de_Fabricacao_PIT_JEA_Parafuso_estojo_/_barra_roscada__3/8_a_4_ASTM_A193_Gr_B7_Natural_(com_revestimento) -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Inspecao_de_Fabricacao_PIT_JEA_Parafuso_estojo_/_barra_roscada__3/8_a_4_ASTM_A193_Gr_B7_Natural_(com_revestimento)">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoBarraRoscadaASTMA193GrB7Natural"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#RelatorioInspecaoDimensional"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoFabricacao"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Producao_PIT_JEA_Parafuso_estojo_/_barra_roscada__3/8_a_4_ASTM_A193_Gr_B7_Natural_(com_revestimento) -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Producao_PIT_JEA_Parafuso_estojo_/_barra_roscada__3/8_a_4_ASTM_A193_Gr_B7_Natural_(com_revestimento)">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoBarraRoscadaASTMA193GrB7Natural"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#RelatorioInspecaoDimensional"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Producao"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Recebimento_PIT_JEA_Parafuso_estojo_/_barra_roscada__3/8_a_4_ASTM_A193_Gr_B7_Natural_(com_revestimento) -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Recebimento_PIT_JEA_Parafuso_estojo_/_barra_roscada__3/8_a_4_ASTM_A193_Gr_B7_Natural_(com_revestimento)">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoBarraRoscadaASTMA193GrB7Natural"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoAnaliseQuimica"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#RelatorioEnsaioMetalografico"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#RecebimentodaMateriaPrima"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#isPartOf_PIT_JEA_Parafuso_estojo_/_barra_roscada__3/8_a_4_ASTM_A193_Gr_B7_Natural_(com_revestimento) -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#isPartOf_PIT_JEA_Parafuso_estojo_/_barra_roscada__3/8_a_4_ASTM_A193_Gr_B7_Natural_(com_revestimento)">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#isPartOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#PIT_JEA_Parafuso_estojo_/_barra_roscada__3/8_a_4_ASTM_A193_Gr_B7_Natural_(com_revestimento)"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#BarraRoscadaASTMA193"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#PorcaSextavadaPesadaASTMA194"/>
+        <rdfs:label>isPartOf PIT JEA Parafuso estojo / barra roscada  Ø 3/8&quot; a 4&quot; ASTM A193 Gr B7 Natural (com revestimento)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Alongamento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Alongamento">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ResultadoTracao"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ArquivoPDF -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ArquivoPDF"/>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Assinatura -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Assinatura">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ComponentesDocumentos"/>
+        <rdfs:isDefinedBy xml:lang="pt">Uma assinatura ou firma é uma marca ou escrito em algum documento que visa a dar-lhe validade ou identificar a sua autoria.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#BarraRoscadaASTMA193 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#BarraRoscadaASTMA193">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Parafuso_Estojo"/>
+        <rdfs:label>Barra Roscada ASTM A193 Gr. B7 Natural (com revestimento)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Beneficiamento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Beneficiamento">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Ciclodevida"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#BoundingBox -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#BoundingBox">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ComponentesDocumentos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Cabecalho -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Cabecalho">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ComponentesDocumentos"/>
+        <rdfs:isDefinedBy xml:lang="pt">Conjunto de informações localizadas na parte superior de cada uma das páginas ou seções de um documento (como nome do autor, título corrente, número da página etc.).</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="pt">Cabeçalho</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Calibracao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Calibracao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Ciclodevida"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Carbono -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Carbono">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ResultadoAnaliseQuimica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Carimbo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Carimbo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ComponentesDocumentos"/>
+        <rdfs:isDefinedBy xml:lang="pt">Selo utilizado para o reconhecimento, prova ou atestado de autenticidade de um documento</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoAnaliseQuimica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoAnaliseQuimica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadodeQualidade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoDureza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoDureza">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadodeQualidade"/>
+        <rdfs:label>Certificado Dureza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoRevestimento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoRevestimento">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadodeQualidade"/>
+        <rdfs:label>Certificado Revestimento</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoTesteCarga -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoTesteCarga">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadodeQualidade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoTracao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoTracao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadodeQualidade"/>
+        <rdfs:label>Certificado Tração</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadodeQualidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadodeQualidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#TiposDocumentos"/>
+        <rdfs:isDefinedBy xml:lang="pt">Um certificado de qualidade é um documento que reúne informações que atestem a qualidade de determinado produto/serviço de acordo com normas predefinadas.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="pt">Certificado de Qualidade</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertiicadoTratamentoTermico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertiicadoTratamentoTermico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadodeQualidade"/>
+        <rdfs:label>Certificado Tratamento Térmico</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Ciclodevida -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Ciclodevida">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ComponentesDocumentos"/>
+        <rdfs:label>Fases de Inspeção</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Cliente -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Cliente">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ComponentesDocumentos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ComponentesDocumentos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ComponentesDocumentos">
+        <rdfs:label xml:lang="pt">Componentes de documentos</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Conteudo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Conteudo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#BoundingBox"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CorpoDocumento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CorpoDocumento">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ComponentesDocumentos"/>
+        <rdfs:isDefinedBy xml:lang="pt">Local onde são informados todos os dados considerados importantes.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="pt">Corpo do documento</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Corrida -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Corrida">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ComponentesDocumentos"/>
+        <rdfs:isDefinedBy xml:lang="pt">É um código de identificação exclusivo que um técnico estampa em uma peça de metal para fornecer informações sobre suas origens.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CriterioAceitacao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CriterioAceitacao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Ciclodevida"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Crômio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Crômio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ResultadoAnaliseQuimica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Data">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ComponentesDocumentos"/>
+        <rdfs:isDefinedBy xml:lang="pt">Data é um momento do calendário, que representa o dia, mês e ano e, em certos casos, também a hora.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Descrição -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Descrição">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ComponentesDocumentos"/>
+        <rdfs:isDefinedBy xml:lang="pt">A descrição é a enumeração das características próprias dos seres, coisas, cenários, ambientes, costumes, impressões etc.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#DocumentoReferencia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#DocumentoReferencia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Ciclodevida"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Encontrado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Encontrado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ResultadoDureza"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#EnsaiocomTestemunho -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#EnsaiocomTestemunho">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Ciclodevida"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Ensaiosdaqualidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Ensaiosdaqualidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Ciclodevida"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Enxofre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Enxofre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ResultadoAnaliseQuimica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Equipamento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Equipamento">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ComponentesDocumentos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#FamiliaEquipamento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#FamiliaEquipamento">
+        <rdfs:label>Familias de Equipamentos</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Fornecedor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Fornecedor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ComponentesDocumentos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Fósforo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Fósforo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ResultadoAnaliseQuimica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Height -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Height">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#BoundingBox"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoFabricacao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoFabricacao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Ciclodevida"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoFinalCliente -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoFinalCliente">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Ciclodevida"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoFinalJEA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoFinalJEA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Ciclodevida"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Item -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Item">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ComponentesDocumentos"/>
+        <rdfs:isDefinedBy xml:lang="pt">Itens são produtos ou serviços fornecidos por uma empresa.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Left -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Left">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#BoundingBox"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#LimiteEscoamento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#LimiteEscoamento">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ResultadoTracao"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#LimiteResistencia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#LimiteResistencia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ResultadoTracao"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Manganês -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Manganês">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ResultadoAnaliseQuimica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Maximo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Maximo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ResultadoDureza"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Molibdênio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Molibdênio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ResultadoAnaliseQuimica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Norma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Norma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ComponentesDocumentos"/>
+        <rdfs:isDefinedBy xml:lang="pt">É um documento, produzido por um órgão oficial acreditado para tal, que estabelece regras, diretrizes, ou características acerca de um material, produto, processo ou serviço.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Norma_Tecnica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Norma_Tecnica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#TiposDocumentos"/>
+        <rdfs:label>Norma Técnica</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#NumeroCertificado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#NumeroCertificado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ComponentesDocumentos"/>
+        <rdfs:label xml:lang="pt">Numero do certificado</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#NumeroPedidoCompra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#NumeroPedidoCompra">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ComponentesDocumentos"/>
+        <rdfs:label xml:lang="pt">Numero do pedido de compra</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Pagina -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Pagina">
+        <rdfs:isDefinedBy xml:lang="pt">Uma página é uma face de uma folha de papel ou usado como medida de quantidade ou localização de impressos e documento.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="pt">Página</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Parafuso_Estojo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Parafuso_Estojo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#FamiliaEquipamento"/>
+        <rdfs:label>Parafuso estojo / barra roscada  Ø 3/8&quot; a 4&quot; ASTM A193 Gr. B7 Natural (com revestimento)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#PedidoCompra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#PedidoCompra">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#TiposDocumentos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Plano_de_Inspeções_e_Testes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Plano_de_Inspeções_e_Testes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#TiposDocumentos"/>
+        <rdfs:isDefinedBy xml:lang="pt">É um documento elaborado pelo fornecedor contido no seu plano da qualidade, seguindo os padrões estabelecidos pelas normas de gestão da qualidade e normas técnicas definidas no contrato.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="pt">Plano de Inspeções e Testes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#PorcaSextavadaPesadaASTMA194 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#PorcaSextavadaPesadaASTMA194">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Parafuso_Estojo"/>
+        <rdfs:label>Porca Sextavada Pesada ASTM A194</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Producao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Producao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Ciclodevida"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Quantidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Quantidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ComponentesDocumentos"/>
+        <rdfs:isDefinedBy xml:lang="pt">Número de itens de um determinado pedido de compra.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#RecebimentoProdutoAcabado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#RecebimentoProdutoAcabado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Ciclodevida"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#RecebimentodaMateriaPrima -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#RecebimentodaMateriaPrima">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Ciclodevida"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ReducaodeArea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ReducaodeArea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ResultadoTracao"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#RegistroEmitido -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#RegistroEmitido">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Ciclodevida"/>
+        <rdfs:comment>Relatorio gerado</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#RelatorioEnsaioMetalografico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#RelatorioEnsaioMetalografico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadodeQualidade"/>
+        <rdfs:label>Relatório de Ensaios Metalográficos</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#RelatorioInspecaoDimensional -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#RelatorioInspecaoDimensional">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadodeQualidade"/>
+        <rdfs:label>Relatório de Inspeção Dimensional</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ResultadoAnaliseQuimica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ResultadoAnaliseQuimica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ResultadoEnsaio"/>
+        <rdfs:label>Resultado Análise Química</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ResultadoDureza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ResultadoDureza">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ResultadoEnsaio"/>
+        <rdfs:label>Resultado Dureza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ResultadoEnsaio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ResultadoEnsaio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ComponentesDocumentos"/>
+        <rdfs:label>Resultado Ensaio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ResultadoTracao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ResultadoTracao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ResultadoEnsaio"/>
+        <rdfs:label>Resultado Tração</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Rodapé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Rodapé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ComponentesDocumentos"/>
+        <rdfs:isDefinedBy xml:lang="pt">Conjunto de informações localizadas na parte inferior da página.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Silício -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Silício">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ResultadoAnaliseQuimica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#TipodeInspecao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#TipodeInspecao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#ComponentesDocumentos"/>
+        <rdfs:label>Tipo de Inspeção</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#TiposDocumentos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#TiposDocumentos">
+        <rdfs:label xml:lang="pt">Tipos de documentos</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Top -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Top">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#BoundingBox"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Width -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Width">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#BoundingBox"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#PIT_JEA_Parafuso_estojo_/_barra_roscada__3/8_a_4_ASTM_A193_Gr_B7_Natural_(com_revestimento) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#PIT_JEA_Parafuso_estojo_/_barra_roscada__3/8_a_4_ASTM_A193_Gr_B7_Natural_(com_revestimento)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Plano_de_Inspeções_e_Testes"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#CertificadoAnaliseQuimica">
+        <rdfs:label>Certificado de análise química</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointProperties"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#InspecaoPorcaSextavadaPesadaASTMA194"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Beneficiamento_PIT_JEA_Parafuso_estojo_/_barra_roscada__3/8_a_4_ASTM_A193_Gr_B7_Natural_(com_revestimento)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Calibracao_PIT_JEA_Parafuso_estojo_/_barra_roscada__3/8_a_4_ASTM_A193_Gr_B7_Natural_(com_revestimento)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Ensaios_com_testemunho_PIT_JEA_Parafuso_estojo_/_barra_roscada__3/8_a_4_ASTM_A193_Gr_B7_Natural_(com_revestimento)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#EnsaiosdaQualidade_PIT_JEA_Parafuso_estojo_/_barra_roscada__3/8_a_4_ASTM_A193_Gr_B7_Natural_(com_revestimento)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Inspecao_Final_JEA_PIT_JEA_Parafuso_estojo_/_barra_roscada__3/8_a_4_ASTM_A193_Gr_B7_Natural_(com_revestimento)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Inspecao_Final_do_Cliente_PIT_JEA_Parafuso_estojo_/_barra_roscada__3/8_a_4_ASTM_A193_Gr_B7_Natural_(com_revestimento)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Inspecao_de_Fabricacao_PIT_JEA_Parafuso_estojo_/_barra_roscada__3/8_a_4_ASTM_A193_Gr_B7_Natural_(com_revestimento)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Producao_PIT_JEA_Parafuso_estojo_/_barra_roscada__3/8_a_4_ASTM_A193_Gr_B7_Natural_(com_revestimento)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/3/untitled-ontology-35#Recebimento_PIT_JEA_Parafuso_estojo_/_barra_roscada__3/8_a_4_ASTM_A193_Gr_B7_Natural_(com_revestimento)"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
