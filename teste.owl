@@ -1,0 +1,406 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#"
+     xml:base="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Certificado_de_analise_quimica_pode_ter -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Certificado_de_analise_quimica_pode_ter">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Certificado_de_qualidade_pode_ter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Certificado_de_qualidade_deve_ter -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Certificado_de_qualidade_deve_ter"/>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Certificado_de_qualidade_pode_ter -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Certificado_de_qualidade_pode_ter"/>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Pedido_de_compra_deve_ter -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Pedido_de_compra_deve_ter"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Assinatura -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Assinatura">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Atributos_documentos"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Certificado_de_qualidade_deve_ter"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Certificado_de_qualidade"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Pedido_de_compra_deve_ter"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Pedido_de_compra"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Atributos_documentos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Atributos_documentos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Documentos"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Tipo_documento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Carbono -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Carbono">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Resultado_analise_quimica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Carimbo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Carimbo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Atributos_documentos"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Certificado_de_qualidade_deve_ter"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Certificado_de_qualidade"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Pedido_de_compra_deve_ter"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Pedido_de_compra"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Certificado_de_analise_quimica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Certificado_de_analise_quimica">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Certificado_de_qualidade"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Tipo_documento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Certificado_de_qualidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Certificado_de_qualidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Tipo_documento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Cliente -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Cliente">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Atributos_documentos"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Pedido_de_compra_deve_ter"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Pedido_de_compra"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Corrida -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Corrida">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Atributos_documentos"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Certificado_de_qualidade_pode_ter"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Certificado_de_qualidade"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Data">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Atributos_documentos"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Certificado_de_qualidade_deve_ter"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Certificado_de_qualidade"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Pedido_de_compra_deve_ter"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Pedido_de_compra"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Documentos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Documentos"/>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Enxofre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Enxofre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Resultado_analise_quimica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Equipamento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Equipamento"/>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Item -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Item">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Atributos_documentos"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Certificado_de_qualidade_deve_ter"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Certificado_de_qualidade"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Pedido_de_compra_deve_ter"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Pedido_de_compra"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Norma_de_referencia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Norma_de_referencia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Atributos_documentos"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Certificado_de_qualidade_pode_ter"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Certificado_de_qualidade"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Pedido_de_compra_deve_ter"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Pedido_de_compra"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Numero_certificado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Numero_certificado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Atributos_documentos"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Certificado_de_qualidade_deve_ter"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Certificado_de_qualidade"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Numero_pedido_de_compra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Numero_pedido_de_compra">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Atributos_documentos"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Certificado_de_qualidade_pode_ter"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Certificado_de_qualidade"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Pedido_de_compra_deve_ter"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Pedido_de_compra"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Pedido_de_compra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Pedido_de_compra">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Tipo_documento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Plano_de_inspecoes_e_testes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Plano_de_inspecoes_e_testes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Tipo_documento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Resultado_Ensaio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Resultado_Ensaio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Atributos_documentos"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Certificado_de_qualidade_deve_ter"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Certificado_de_qualidade"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Resultado_analise_quimica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Resultado_analise_quimica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Resultado_Ensaio"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Certificado_de_analise_quimica_pode_ter"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Certificado_de_analise_quimica"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Tipo_documento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Tipo_documento">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Documentos"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Data -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Data">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Atributos_documentos"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Fornecedor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Fornecedor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Atributos_documentos"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Item -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Item">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Atributos_documentos"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Numero_pedido_compra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Numero_pedido_compra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Atributos_documentos"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Pedido_de_compra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Pedido_de_compra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Tipo_documento"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Quantidade -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Quantidade">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marioricardo/ontologies/2021/10/untitled-ontology-73#Atributos_documentos"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
